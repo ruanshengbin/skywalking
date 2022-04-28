@@ -17,6 +17,9 @@
 name: CI
 
 on:
+  push:
+    branches:
+      - "clean-scroll-context"
   pull_request:
     paths-ignore:
       - "**.md"
